@@ -21,13 +21,16 @@ Code file contains :
 and the processed images, respectively, are as follows : 
 
 <p align="center">
+  ##### Canny Edge Output
   <img src="https://raw.githubusercontent.com/ozgunsungar/Corner-Edge_Detection/main/image_canny.png" width="350" title="Canny Edge">
 <p/>
 
 <p align="center">
+  ##### Orients of Image
   <img src="https://raw.githubusercontent.com/ozgunsungar/Corner-Edge_Detection/main/image_orient.png" width="350" title="Orients">
 <p/>
 
 <p align="center">
+  ##### Corners in Image
   <img src="https://raw.githubusercontent.com/ozgunsungar/Corner-Edge_Detection/main/image_corners.png" width="350" title="Corners">
 <p/>
