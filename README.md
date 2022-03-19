@@ -20,7 +20,7 @@ Code file contains :
 <p/>
 and the processed images, respectively, are as follows : 
 
-<p align="right">
+<p align="center">
   <b>Canny Edge Output<\b>
 </p>
 
@@ -30,16 +30,16 @@ and the processed images, respectively, are as follows :
 <p/>
 
     
-<p align="right">
-  <b>Orients of Image<\b>
+<p align="center">
+  <b>Orients of Image
 </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/ozgunsungar/Corner-Edge_Detection/main/image_orient.png" width="350" title="Orients">
 <p/>
     
-<p align="right">
-  <b>Corners in Image<\b>
+<p align="center">
+  <b>Corners in Image
 </p>
     
 <p align="center">
