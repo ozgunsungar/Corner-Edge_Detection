@@ -4,7 +4,10 @@ In this project I coded **canny edge and corner detection from scratch for pytho
 
 These codes based on [image](https://raw.githubusercontent.com/ozgunsungar/Corner-Edge_Detection/main/image.png). So you have to adjust threshold and other numbers for your problem.
 
-Let's have a look our base image.
-![alt text](https://raw.githubusercontent.com/ozgunsungar/Corner-Edge_Detection/main/image.png)
+# Let's have a look our base image.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ozgunsungar/Corner-Edge_Detection/main/image.png" width="350" title="Base Image">
+<p/>
 
 
