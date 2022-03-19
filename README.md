@@ -6,7 +6,7 @@ These codes based on [image](https://raw.githubusercontent.com/ozgunsungar/Corne
 
 # Let's have a look our code.
 
-###As I mentioned before this is a our base image which is pure one
+##As I mentioned before this is a our base image which is pure one
 <p align="center">
   <img src="https://raw.githubusercontent.com/ozgunsungar/Corner-Edge_Detection/main/image.png" width="350" title="Base Image">
 <p/>
