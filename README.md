@@ -22,11 +22,13 @@ and the processed images, respectively, are as follows :
 
 **Canny Edge Output**
 
-<p align="left">
+<p align="center">
   <img src="https://raw.githubusercontent.com/ozgunsungar/Corner-Edge_Detection/main/image_canny.png" width="350" title="Canny Edge">
 <p/>
+
 **Orients of Image**
-<p align="right">
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/ozgunsungar/Corner-Edge_Detection/main/image_orient.png" width="350" title="Orients">
 <p/>
   **Corners in Image**
