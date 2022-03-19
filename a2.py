@@ -180,11 +180,8 @@ def harris(img,dx,dy): #img = colorful image
     g_dxdy = cv2.GaussianBlur(dxdy,(19,19),0)
 
     # Harris Function
-    harris =np.multiply( g_dx2,g_dy2) - np.square(g_dxdy) - 0.05*np.square(g_dx2 + g_dy2) # r(harris) = det - k*(trace**2) , R = det(M) – k tr(M)2  where 0.04 < k < 0.06
-    # Normalizing inside (0-1)
-    print("Harris :",harris)
-    # harris = np.add(harris,dx.shape[0]/255.)
-    print("Harris :",harris)
+    # r(harris) = det - k*(trace**2) where 0.04 < k < 0.06
+    harris =np.multiply( g_dx2,g_dy2) - np.square(g_dxdy) - 0.05*np.square(g_dx2 + g_dy2) 
     cv2.imwrite("img_harris.png",harris)
     
     return img_copy,harris
@@ -216,11 +213,6 @@ def corner_localmax(img,harris):
 """## Main function"""
 
 def main():
-  # !wget -O image.png https://docs.google.com/uc?export=download&id=1VgLDToItCpWYgAyqPwv20cz2sDvT3CZX
-  "path_share = 'https://drive.google.com/file/d/1VgLDToItCpWYgAyqPwv20cz2sDvT3CZX/view?usp=sharing'
-  img = tf.keras.preprocessing.image.load_img(path_share)
-
-  
 
   sobel = generalized_sobel(3)
   Gx = sobel[0]
@@ -238,7 +230,6 @@ def main():
   sy = np.absolute(sy)
   
   image_grad = np.add(sx,sy)
-  # image_grad = cv2.bitwise_or(sx,sy)
   
   G = np.hypot(sx, sy)
   img_orient = find_img_orient(sx,sy)
