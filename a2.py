@@ -17,12 +17,10 @@ import scipy.ndimage.filters as filters
 import scipy.ndimage as ndimage
 from skimage.feature import peak_local_max
 
-#for load image
-import tensorflow as tf
-
 """##Load image from url"""
 
-image_path = tf.keras.utils.get_file('image.png', 'https://raw.githubusercontent.com/ozgunsungar/Corner-Edge_Detection/main/image.png', cache_subdir="/content/")
+# image_path = tf.keras.utils.get_file('image.png', 'https://raw.githubusercontent.com/ozgunsungar/Corner-Edge_Detection/main/image.png', cache_subdir="/content/")
+!wget -O image.png https://raw.githubusercontent.com/ozgunsungar/Corner-Edge_Detection/main/image.png
 
 """##Generic Sobel Function 
 ***Same as A1 assignment***
