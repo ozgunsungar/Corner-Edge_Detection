@@ -4,8 +4,6 @@ In this project I coded **canny edge and corner detection from scratch for pytho
 
 These codes based on [image](https://raw.githubusercontent.com/ozgunsungar/Corner-Edge_Detection/main/image.png). So you have to adjust threshold and other numbers for your problem.
 
-# Let's have a look our code. :muscle:	
-
 Code file contains : 
 -Generic Sobel
 -Manual Convolution
@@ -14,6 +12,8 @@ Code file contains :
 -Canny edge from scratch
 -Corner detection from scratch
 
+# Let's have a look our outputs. :muscle:	
+
 **As I mentioned before this is a our base image which is _pure_ one**
 <p align="center">
   <img src="https://raw.githubusercontent.com/ozgunsungar/Corner-Edge_Detection/main/image.png" width="350" title="Base Image">
@@ -21,7 +21,7 @@ Code file contains :
 and the processed images, respectively, are as follows : 
 
 <p align="center">
-  <b>Canny Edge Output<\b>
+  <b>Canny Edge Output
 </p>
 
 
